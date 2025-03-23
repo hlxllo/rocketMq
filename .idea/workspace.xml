@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6920a7ba-762c-476c-a9ab-72f4540381da" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="localRepository" value="D:\back_end\JAVA\apache-maven-3.6.1\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\back_end\JAVA\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ugzQrkJo6TrzakJDWC2hwxSj7p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestConsumer.testConsumer (1).executor": "Run",
+    "JUnit.TestConsumer.testConsumer (2).executor": "Run",
+    "JUnit.TestConsumer.testConsumer.executor": "Run",
+    "JUnit.TestProducer.testProducer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/back_end/JAVA/code/rocketMq-demo/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\back_end\JAVA\code\rocketMq-demo\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hlxllo.consumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestProducer.testProducer">
+    <configuration name="TestConsumer.testConsumer (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocketMq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlxllo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlxllo.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.hlxllo.consumer.TestConsumer" />
+      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumer.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocketMq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlxllo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlxllo.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.hlxllo.consumer.TestConsumer" />
+      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProducer.testAsyncProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocketMq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlxllo.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlxllo.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.hlxllo.producer.TestProducer" />
+      <option name="METHOD_NAME" value="testAsyncProducer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProducer.testOneWayProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocketMq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlxllo.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlxllo.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.hlxllo.producer.TestProducer" />
+      <option name="METHOD_NAME" value="testOneWayProducer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProducer.testProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocketMq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlxllo.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlxllo.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.hlxllo.producer.TestProducer" />
+      <option name="METHOD_NAME" value="testProducer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestProducer.testProducer" />
+        <item itemvalue="JUnit.TestProducer.testOneWayProducer" />
+        <item itemvalue="JUnit.TestProducer.testAsyncProducer" />
+        <item itemvalue="JUnit.TestConsumer.testConsumer" />
+        <item itemvalue="JUnit.TestConsumer.testConsumer (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6920a7ba-762c-476c-a9ab-72f4540381da" name="Changes" comment="" />
+      <created>1742684992193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742684992193</updated>
+      <workItem from="1742684993114" duration="2656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
