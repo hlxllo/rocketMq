@@ -199,4 +199,15 @@ public class TestProducer {
         producer.send(msg);
         producer.shutdown();
     }
+
+    // 死信消息
+    @Test
+    public void testDeadProducer() throws Exception {
+        DefaultMQProducer producer = new DefaultMQProducer("dead-group");
+        producer.setNamesrvAddr("192.168.26.3:9876");
+        producer.start();
+        Message message = new Message("deadTopic", "死信消息".getBytes());
+        producer.sendOneway(message);
+        producer.shutdown();
+    }
 }

@@ -100,4 +100,43 @@ public class TestConsumer {
         consumer.start();
         System.in.read();
     }
+
+    // 死信消息（初次消费）
+    @Test
+    public void testDeadConsumer() throws Exception {
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("dead-group");
+        consumer.setNamesrvAddr("192.168.26.3:9876");
+        consumer.subscribe("deadTopic", "*");
+        // 最多重试2次
+        consumer.setMaxReconsumeTimes(2);
+        consumer.registerMessageListener(new MessageListenerConcurrently() {
+            @Override
+            public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext context) {
+                System.out.println(list);
+                // 消费失败
+                return ConsumeConcurrentlyStatus.RECONSUME_LATER;
+            }
+        });
+        consumer.start();
+        System.in.read();
+    }
+
+    // 死信消息消费者
+    @Test
+    public void testDeadMq() throws Exception {
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("dead-group");
+        consumer.setNamesrvAddr("192.168.26.3:9876");
+        // 死信队列默认名称%DLQ% + 消费者组名
+        consumer.subscribe("%DLQ%dead-group", "*");
+        consumer.registerMessageListener(new MessageListenerConcurrently() {
+            @Override
+            public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext context) {
+                System.out.println(list);
+                return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
+            }
+        });
+        consumer.start();
+        System.in.read();
+
+    }
 }
